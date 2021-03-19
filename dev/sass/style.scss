@@ -1,0 +1,15 @@
+::-webkit-input-placeholder {color: #DFDFDF;}
+::-moz-placeholder          {color: #DFDFDF;}/* Firefox 19+ */
+:-moz-placeholder           {color: #DFDFDF;}/* Firefox 18- */
+:-ms-input-placeholder      {color: #DFDFDF;}
+$fm: 'Montserrat', sans-serif;  
+* {
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,p,a,ul {
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+}
+@import 'include';

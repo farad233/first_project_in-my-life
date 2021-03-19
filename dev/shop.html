@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="body">
+    <header class="header">
+        <div class="container">
+            <div class="burger__menu">
+                <div class="burger__menu_items">
+                    <label for="burger" class="burger-button"></label>
+                    <input type="checkbox" id="burger" class="burger-button_checkbox">
+                    <div class="burger-menu">
+                        <div class="burger__menu_menu-items">
+                            <label for="burger" class="burger__menu_close"></label>
+                            <div>
+                                <div>
+                                    <a href="/" class="nav__logo"><img src="./images/logo.svg" alt="logo" class="nav__logo_image"></a>
+                                    <div class="nav-links">
+                                        <a href="/" class="nav-links__link nav-links__link_active">Home</a>
+                                        <a href="./shop.html" class="nav-links__link">Shop</a>
+                                        <a href="index.html#Gallery" class="nav-links__link">Gallery</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="burger__menu_menu-items-buttons">
+                                <button class="button button_contact-us">contact us</button>
+                                <a href="/" class="nav__button_margin button_orange button">book now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="/" class="nav__union"><img src="./images/Union.svg" alt="union"><p>0</p></a>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="/" class="nav__logo"><img src="./images/logo.svg" alt="logo" class="nav__logo_image"></a>
+                <div class="nav-items">
+                    <div class="nav-links">
+                        <a href="/" class="nav-links__link nav-links__link_active">Home</a>
+                        <a href="./shop.html" class="nav-links__link">Shop</a>
+                        <a href="index.html#Gallery" class="nav-links__link">Gallery</a>
+                    </div>
+                    <a href="/" class="nav__union"><img src="./images/Union.svg" alt="union"><p>0</p></a>
+                    <button class="button button_contact-us">contact us</button>
+                    <a href="/" class="nav__button_margin button_orange button">book now</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="header-section_padding">
+            <div class="header-section__shop">
+                <div class="container header-section__shop_sale">
+                    <button class="slider-button slider-button_left header-section__slider_button"></button>
+                    <img src="./images/brandy-sale-50.svg" alt="brand-sale" class="header-section__shop-sale_image-50">
+                    <img src="./images/brandy-sale.svg" alt="brand-sale" class="header-section__shop-sale_image-brandy-sale">
+                    <button class="slider-button header-section__slider_button"></button>
+                </div>
+            </div>
+        </section>
+        <section class="popular_products">
+            <div class="container">
+                <div>
+                    <label class="serch">
+                        <input type="text" placeholder="search something you need...">
+                    </label>  
+                    <button class="button_orange button button_serch">SEARCH</button> 
+                </div>
+                <div class="filter_tab">
+                    <button class="button_filter_tab">
+                        Filters
+                    </button>
+                </div>
+                <div class="popular__products_items">
+                    <div class="filters_bg">
+                        <div class="filters">
+                            <button class="filter_menu_close"></button>
+                            <h3>Filters</h3>
+                            <form>
+                                <input type="text" value="Choose something" class="filter_atribute" disabled>
+                                <fieldset class="fieldset filters-fieldset">
+                                    <div class="form__elem_margin form-shop__elem_margin">
+                                        <div class="form_checkbox">
+                                            <input id="checkbox-1" type="checkbox" name="checkbox" value="1">
+                                            <label for="checkbox-1">Choose something</label>
+                                        </div>
+                                        <div class="form_checkbox">
+                                            <input id="checkbox-2" type="checkbox" name="checkbox" value="2">
+                                            <label for="checkbox-2">Choose something</label>
+                                        </div>
+                                    </div>
+                                    <div class="form__elem_margin form-shop__elem_margin">
+                                        <div class="form_checkbox">
+                                            <input id="checkbox-3" type="checkbox" name="checkbox" value="3">
+                                            <label for="checkbox-3">Choose something</label>
+                                        </div>
+                                        <div class="form_checkbox">
+                                            <input id="checkbox-4" type="checkbox" name="checkbox" value="4">
+                                            <label for="checkbox-4">Choose something</label>
+                                        </div>
+                                    </div>
+                                </fieldset> 
+                                <input type="text" value="Choose something" class="filter_atribute" disabled>
+                                <fieldset class="fieldset filters-fieldset">
+                                    <div class="form__elem_margin form-shop__elem_margin">
+                                        <div class="form_radio">
+                                            <input id="radio-1" type="radio" name="radio" value="1" checked>
+                                            <label for="radio-1">Choose something</label>
+                                        </div>
+                                        <div class="form_radio">
+                                            <input id="radio-2" type="radio" name="radio" value="2">
+                                            <label for="radio-2">Choose something</label>
+                                        </div>
+                                    </div> 
+                                    <div class="form__elem_margin form-shop__elem_margin">
+                                        <div class="form_radio">
+                                            <input id="radio-3" type="radio" name="radio" value="3">
+                                            <label for="radio-3">Choose something</label>
+                                        </div>
+                                        <div class="form_radio">
+                                            <input id="radio-4" type="radio" name="radio" value="4">
+                                            <label for="radio-4">Choose something</label>
+                                        </div>
+                                    </div> 
+                                </fieldset>
+                                <input type="text" value="Choose something" class="filter_atribute" disabled>
+                                <div class="range">
+                                    <div class="range_buttons">
+                                        <button class="range_button"></button>
+                                        <button class="range_button"></button>
+                                    </div>
+                                    <div class="range_streich"></div>
+                                    <div class="from-to">
+                                        <div>
+                                            <label for="from_start">From:</label>
+                                            <input type="number" value="60" id="from_start">
+                                        </div>
+                                        <div>
+                                            <label for="from_finish">To:</label>
+                                            <input type="number" value="800" id="from_finish">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="button form-shop_button">SHOW</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="product__cards_shop">
+                        <div class="product-card product_card">
+                            <div>
+                                <img src="./images/product-bottle.jpg" alt="bottle" class="product-card-image">
+                            </div>
+                            <h3 class="product-tittle">Barbers</h3>
+                            <ul class="product-descriptions">
+                                <li>Premium beard balm</li>
+                                <li>50 ml</li>
+                                <li>new york original</li>
+                            </ul>
+                            <p class="product-price">$ 490.00</p>
+                            <div class="product-card_buttons">
+                                <a href="/" class="button button_shop-now">shop now</a>
+                                <button class="button_add"><img src="./images/button-add.svg" alt="add" class="button_add_img"></button>
+                            </div>
+                        </div>
+                        <div class="product-card product_card">
+                            <div>
+                                <img src="./images/product-bottle.jpg" alt="bottle" class="product-card-image">
+                            </div>
+                            <h3 class="product-tittle">Barbers</h3>
+                            <ul class="product-descriptions">
+                                <li>Premium beard balm</li>
+                                <li>50 ml</li>
+                                <li>new york original</li>
+                            </ul>
+                            <p class="product-price">$ 490.00</p>
+                            <div class="product-card_buttons">
+                                <a href="/" class="button button_shop-now">shop now</a>
+                                <button class="button_add"><img src="./images/button-add.svg" alt="add" class="button_add_img"></button>
+                            </div>
+                        </div>
+                        <div class="product-card product_card">
+                            <div>
+                                <img src="./images/product-bottle.jpg" alt="bottle" class="product-card-image">
+                            </div>
+                            <h3 class="product-tittle">Barbers</h3>
+                            <ul class="product-descriptions">
+                                <li>Premium beard balm</li>
+                                <li>50 ml</li>
+                                <li>new york original</li>
+                            </ul>
+                            <p class="product-price">$ 490.00</p>
+                            <div class="product-card_buttons">
+                                <a href="/" class="button button_shop-now">shop now</a>
+                                <button class="button_add"><img src="./images/button-add.svg" alt="add" class="button_add_img"></button>
+                            </div>
+                        </div>
+                        <div class="product-card product_card">
+                            <div>
+                                <img src="./images/product-bottle.jpg" alt="bottle" class="product-card-image">
+                            </div>
+                            <h3 class="product-tittle">Barbers</h3>
+                            <ul class="product-descriptions">
+                                <li>Premium beard balm</li>
+                                <li>50 ml</li>
+                                <li>new york original</li>
+                            </ul>
+                            <p class="product-price">$ 490.00</p>
+                            <div class="product-card_buttons">
+                                <a href="/" class="button button_shop-now">shop now</a>
+                                <button class="button_add"><img src="./images/button-add.svg" alt="add" class="button_add_img"></button>
+                            </div>
+                        </div>
+                        <div class="product-card product_card">
+                            <div>
+                                <img src="./images/product-bottle.jpg" alt="bottle" class="product-card-image">
+                            </div>
+                            <h3 class="product-tittle">Barbers</h3>
+                            <ul class="product-descriptions">
+                                <li>Premium beard balm</li>
+                                <li>50 ml</li>
+                                <li>new york original</li>
+                            </ul>
+                            <p class="product-price">$ 490.00</p>
+                            <div class="product-card_buttons">
+                                <a href="/" class="button button_shop-now">shop now</a>
+                                <button class="button_add"><img src="./images/button-add.svg" alt="add" class="button_add_img"></button>
+                            </div>
+                        </div>
+                        <div class="product-card product_card">
+                            <div class="product-card-image_sale">
+                                <img src="./images/product-bottle.jpg" alt="bottle" class="product-card-image">
+                            </div>
+                            <h3 class="product-tittle">Barbers</h3>
+                            <ul class="product-descriptions">
+                                <li>Premium beard balm</li>
+                                <li>50 ml</li>
+                                <li>new york original</li>
+                            </ul>
+                            <p class="product-price">$ 490.00</p>
+                            <div class="product-card_buttons">
+                                <a href="/" class="button button_shop-now">shop now</a>
+                                <button class="button_add"><img src="./images/button-add.svg" alt="add" class="button_add_img"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products products_shop">
+            <div class="container container-tab">
+                <div class="Popular-products_left">
+                    <h2 class="tittle">Popular  products</h2>
+                </div>
+                <div class="product-cards">
+                    <div class="product-card">
+                        <div>
+                            <img src="./images/product-bottle.jpg" alt="bottle" class="product-card-image">
+                        </div>
+                        <h3 class="product-tittle">Barbers</h3>
+                        <ul class="product-descriptions">
+                            <li>Premium beard balm</li>
+                            <li>50 ml</li>
+                            <li>new york original</li>
+                        </ul>
+                        <p class="product-price">$ 490.00</p>
+                        <div class="product-card_buttons">
+                            <a href="/" class="button button_shop-now">shop now</a>
+                            <button class="button_add"><img src="./images/button-add.svg" alt="add" class="button_add_img"></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div>
+                            <img src="./images/product-bottle.jpg" alt="bottle" class="product-card-image">
+                        </div>
+                        <h3 class="product-tittle">Barbers</h3>
+                        <ul class="product-descriptions">
+                            <li>Premium beard balm</li>
+                            <li>50 ml</li>
+                            <li>new york original</li>
+                        </ul>
+                        <p class="product-price">$ 490.00</p>
+                        <div class="product-card_buttons">
+                            <a href="/" class="button button_shop-now">shop now</a>
+                            <button class="button_add"><img src="./images/button-add.svg" alt="add" class="button_add_img"></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-image_sale">
+                            <img src="./images/product-bottle.jpg" alt="bottle" class="product-card-image">
+                        </div>
+                        <h3 class="product-tittle">Barbers</h3>
+                        <ul class="product-descriptions">
+                            <li>Premium beard balm</li>
+                            <li>50 ml</li>
+                            <li>new york original</li>
+                        </ul>
+                        <p class="product-price">$ 490.00</p>
+                        <div class="product-card_buttons">
+                            <a href="/" class="button button_shop-now">shop now</a>
+                            <button class="button_add"><img src="./images/button-add.svg" alt="add" class="button_add_img"></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div>
+                            <img src="./images/product-bottle.jpg" alt="bottle" class="product-card-image">
+                        </div>
+                        <h3 class="product-tittle">Barbers</h3>
+                        <ul class="product-descriptions">
+                            <li>Premium beard balm</li>
+                            <li>50 ml</li>
+                            <li>new york original</li>
+                        </ul>
+                        <p class="product-price">$ 490.00</p>
+                        <div class="product-card_buttons">
+                            <a href="/" class="button button_shop-now">shop now</a>
+                            <button class="button_add"><img src="./images/button-add.svg" alt="add" class="button_add_img"></button>
+                        </div>
+                    </div>
+                    <div class="buttons__phone">
+                        <button class="slider-button slider-button_left"></button>
+                        <button class="slider-button"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_blocks">
+                <a href="/" class="footer__logo"><img src="./images/logo.svg" alt="logo" class="footer__logo_image"></a>
+                <ul>
+                    <li><a href="/" class="nav-links__link nav-links__link_active">Home</a></li>
+                    <li><a href="shop.html" class="nav-links__link">Shop</a></li>
+                    <li><a href="index.html#Gallery" class="nav-links__link">Gallery</a></li>
+                    <li><a href="index.html#form__contact-us" class="nav-links__link">Contuct us</a></li>
+                </ul>
+            </div>
+            <div class="footer_blocks">
+                <div class="footer_block">
+                    <h3>Contact us</h3>
+                    <ul>
+                        <li><a href="mailto:support@gmail.com">support@gmail.com</a></li>
+                        <li><a href="tel:+38044152566954">+38 (044) 15 25 66 954</a></li>
+                    </ul>
+                </div>
+                <div class="footer_block">
+                    <h3>Visit us</h3>
+                    <ul>
+                        <li><address>Ukraine, Kyiv</address></li>
+                        <li><address>str. Oleshi 15, 62000 </address></li>
+                    </ul>
+                </div>
+                <div class="footer_block">
+                    <h3>Follow us</h3>
+                    <div class="socails_links">
+                        <a href="/" class="social_instagramm"></a>
+                        <a href="/" class="social_youtube"></a>
+                        <a href="/" class="social_facebook"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__tab">
+            <div class="tab__footer_block-left">
+                <a href="/" class="footer__logo"><img src="./images/logo.svg" alt="logo" class="footer__logo_image"></a>
+            </div>
+            <div class="tab__footer_block-middle">
+                <div class="footer_block">
+                    <ul>
+                        <li><a href="/" class="nav-links__link nav-links__link_active">Home</a></li>
+                        <li><a href="./shop.html" class="nav-links__link">Shop</a></li>
+                        <li><a href="index.html#Gallery" class="nav-links__link">Gallery</a></li>
+                        <li><a href="index.html#form__contact-us" class="nav-links__link">Contuct us</a></li>
+                    </ul>
+                </div>
+                <div class="footer_block">
+                    <h3>Visit us</h3>
+                    <ul>
+                        <li><address>Ukraine, Kyiv</address></li>
+                        <li><address>str. Oleshi 15, 62000 </address></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab__footer_block-right"> 
+                <div class="footer_block">
+                    <h3>Contact us</h3>
+                    <ul>
+                        <li><a href="mailto:support@gmail.com">support@gmail.com</a></li>
+                        <li><a href="tel:+38044152566954">+38 (044) 15 25 66 954</a></li>
+                    </ul>
+                </div>
+                <div class="footer_block">
+                    <h3>Follow us</h3>
+                    <div class="socails_links">
+                        <a href="/" class="social_instagramm"></a>
+                        <a href="/" class="social_youtube"></a>
+                        <a href="/" class="social_facebook"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="contact-us__form">
+        <div class="contact-us__container">
+            <h2 class="contact-us__form_tittle">Contact us!</h2>
+            <p class="contact-us__form_description">Please leave your details and our manager will contact you within an hour.</p>
+            <form>
+                <div>
+                    <label class="form-label_padding" for="input-name">Name:</label>
+                    <input type="text" class="input" id="input-name" placeholder="Gregory Simmmons">
+                </div>
+                <div>
+                    <label class="form-label_padding" for="input-Email">Email:</label>
+                    <input type="email" class="input" id="input-Email" placeholder="dwight.fleming@example.com">
+                </div>
+                <div>
+                    <label class="form-label_padding" for="input-phone">Phone:</label>
+                    <input type="number" class="input" id="input-phone" placeholder="(307) 555-0133">
+                </div>
+                <label class="form-label_padding" for="input-comment">Your comment:</label>
+                <textarea  id="input-comment" cols="30" rows="10" placeholder="Please leave your comment..."></textarea>
+            </form>
+            <a href="/" class="button button_orange">contact me</a>
+            <button class="contact-us__form_btn-close"></button>
+        </div>
+    </section>
+    <script>
+        const buttons = document.querySelectorAll ('.button_contact-us,.contact-us__form_btn-close');
+        const form = document.querySelector ('.contact-us__form,.contact-us__container');
+        const body = document.querySelector ('body');
+        const buttons_filter = document.querySelectorAll ('.button_filter_tab,.filter_menu_close');
+        const filters = document.querySelector ('.filters,.filters_bg');
+
+        buttons .forEach ((item) => {
+            item .addEventListener ('click', (e) => {
+                form.classList.toggle ('open')
+                body.classList.toggle ('no-scroll')
+            })
+        })
+        buttons_filter .forEach ((item) => {
+            item .addEventListener ('click', (e) => {
+                filters.classList.toggle ('open_filters')
+                body.classList.toggle ('no-scroll')
+            })
+        })
+    </script>
+</body> 
+</html>

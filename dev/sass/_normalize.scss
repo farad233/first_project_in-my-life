@@ -1,0 +1,515 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* line 13, ../sadasdasd/assets/scss/style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 16, ../sadasdasd/assets/scss/style.scss */
+p, h1, h2, h3, h4 {
+  margin: 0px;
+}
+
+/* line 19, ../sadasdasd/assets/scss/style.scss */
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 23, ../sadasdasd/assets/scss/style.scss */
+.container_first {
+  width: 600px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+}
+
+/* line 32, ../sadasdasd/assets/scss/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 35, ../sadasdasd/assets/scss/style.scss */
+.btn_logo_icon {
+  background-image: url(../images/logo/icon.png);
+  background-repeat: no-repeat;
+  background-size: 66px 77px;
+  border: 0px;
+  width: 66px;
+  height: 77px;
+  padding: 0;
+  background-color: inherit;
+}
+
+/* line 45, ../sadasdasd/assets/scss/style.scss */
+.background_first {
+  position: relative;
+  padding-top: 20px;
+  background-image: url(../images/background/background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+/* line 53, ../sadasdasd/assets/scss/style.scss */
+span {
+  color: #fcff19;
+}
+
+/* line 56, ../sadasdasd/assets/scss/style.scss */
+.slidecontainer {
+  width: 100%;
+}
+
+/* line 59, ../sadasdasd/assets/scss/style.scss */
+.slider_range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 39px;
+  background: initial;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  padding-top: 34px;
+}
+
+/* line 70, ../sadasdasd/assets/scss/style.scss */
+.slider_range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 384px;
+  height: 4px;
+  background: #fcff19;
+  cursor: pointer;
+}
+
+/* line 79, ../sadasdasd/assets/scss/style.scss */
+.main_tittle .tittle_main {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+  margin-bottom: 23px;
+}
+
+/* line 88, ../sadasdasd/assets/scss/style.scss */
+.main_tittle .tittle_description {
+  margin-bottom: 33px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32.49px;
+  color: #ffffff;
+  letter-spacing: 0.14px;
+  letter-spacing: 0.14px;
+}
+
+/* line 97, ../sadasdasd/assets/scss/style.scss */
+.main_tittle .shop_bikes {
+  display: inline-block;
+  width: 124px;
+  background-color: #2c2c2c;
+  border-radius: 10px;
+  padding: 15px 0px;
+}
+
+/* line 104, ../sadasdasd/assets/scss/style.scss */
+.main_tittle .shop_bikes:hover {
+  background-color: #000000;
+}
+
+/* line 108, ../sadasdasd/assets/scss/style.scss */
+.slide_btn {
+  background-color: transparent;
+  border: 0px;
+  background-image: url(../images/logo/lft_btn.png);
+  background-repeat: no-repeat;
+  width: 58px;
+  height: 58px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0;
+}
+
+/* line 119, ../sadasdasd/assets/scss/style.scss */
+.slide_btn:first-child {
+  left: 23px;
+}
+
+/* line 122, ../sadasdasd/assets/scss/style.scss */
+.slide_btn:last-child {
+  right: 23px;
+  transform: translateY(-50%) rotate(180deg);
+}
+
+/* line 127, ../sadasdasd/assets/scss/style.scss */
+.background_second {
+  padding-top: 75px;
+  padding-bottom: 170px;
+  background-image: url(../images/background/background_second.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+/* line 135, ../sadasdasd/assets/scss/style.scss */
+.card {
+  position: relative;
+  width: 346px;
+  height: 288px;
+  padding-top: 128px;
+  background-repeat: no-repeat;
+  background-size: 346px 288px;
+  margin-right: 30px;
+}
+
+/* line 143, ../sadasdasd/assets/scss/style.scss */
+.card:hover::after {
+  content: '';
+  background-image: url(../images/background/hover.png);
+  background-size: 346px 288px;
+  width: 346px;
+  height: 288px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 153, ../sadasdasd/assets/scss/style.scss */
+.card:hover .store_btn {
+  display: inline;
+}
+
+/* line 156, ../sadasdasd/assets/scss/style.scss */
+.card .tittle_card {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 32.49px;
+  text-transform: uppercase;
+  letter-spacing: 0.07px;
+  margin-bottom: 13px;
+}
+
+/* line 164, ../sadasdasd/assets/scss/style.scss */
+.card p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.08px;
+  margin-bottom: 24px;
+}
+
+/* line 172, ../sadasdasd/assets/scss/style.scss */
+.card .store_btn {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 47px;
+  text-transform: uppercase;
+  letter-spacing: 0.06px;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  padding: 16px 28px;
+  display: none;
+  z-index: 1;
+  position: relative;
+}
+
+/* line 186, ../sadasdasd/assets/scss/style.scss */
+.card:last-child {
+  margin-right: 0px;
+}
+
+/* line 190, ../sadasdasd/assets/scss/style.scss */
+.card:first-child {
+  background-image: url(../images/background/card_left.png);
+}
+
+/* line 193, ../sadasdasd/assets/scss/style.scss */
+.card:nth-child(2) {
+  background-image: url(../images/background/card_middle.png);
+}
+
+/* line 196, ../sadasdasd/assets/scss/style.scss */
+.card:last-child {
+  background-image: url(../images/background/card_right.png);
+}
+
+/* line 199, ../sadasdasd/assets/scss/style.scss */
+.card_categories {
+  display: flex;
+  margin-top: 75px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 205, ../sadasdasd/assets/scss/style.scss */
+.container_second {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+/* line 209, ../sadasdasd/assets/scss/style.scss */
+.background_third {
+  background-color: #ffffff;
+}
+
+/* line 211, ../sadasdasd/assets/scss/style.scss */
+.background_third h2 {
+  color: #000000;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32.49px;
+  text-transform: uppercase;
+  letter-spacing: 0.14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 215, ../sadasdasd/assets/scss/style.scss */
+.container_third {
+  width: 1900px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 34px;
+}
+
+/* line 222, ../sadasdasd/assets/scss/style.scss */
+.bikes_card {
+  display: flex;
+  text-align: left;
+}
+
+/* line 226, ../sadasdasd/assets/scss/style.scss */
+.bike:first-child {
+  margin-right: 202px;
+}
+
+/* line 229, ../sadasdasd/assets/scss/style.scss */
+.bike:nth-child(2) {
+  margin-right: 202px;
+}
+
+/* line 232, ../sadasdasd/assets/scss/style.scss */
+.bike_option {
+  margin-right: 10px;
+  width: 144px;
+  height: 43px;
+  padding: 0 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 10px;
+  background: url(../images/background/select.png);
+  background-repeat: no-repeat;
+  background-size: 144px 43px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 32.49px;
+  text-transform: uppercase;
+  letter-spacing: 0.06px;
+  padding-right: 35px;
+}
+
+/* line 251, ../sadasdasd/assets/scss/style.scss */
+.but_btn_bike {
+  width: 94px;
+  height: 43px;
+  border-radius: 10px;
+  background-color: #b7b7b7;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.06px;
+  padding: 16px 36px;
+}
+
+/* line 263, ../sadasdasd/assets/scss/style.scss */
+.but_btn_bike:hover {
+  background-color: #000000;
+  color: #fcff19;
+}
+
+/* line 268, ../sadasdasd/assets/scss/style.scss */
+.bike_descriptions {
+  display: flex;
+  align-items: center;
+}
+
+/* line 271, ../sadasdasd/assets/scss/style.scss */
+.bike_descriptions h3 {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 32.49px;
+  text-transform: uppercase;
+  letter-spacing: 0.07px;
+}
+
+/* line 279, ../sadasdasd/assets/scss/style.scss */
+.bike_descriptions p {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 32.49px;
+  letter-spacing: 0.07px;
+}
+
+/* line 287, ../sadasdasd/assets/scss/style.scss */
+.bike_description {
+  margin-right: 140px;
+}
+
+/* line 290, ../sadasdasd/assets/scss/style.scss */
+.background_fourth {
+  background: url(../images/background/bg_fourth.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* line 295, ../sadasdasd/assets/scss/style.scss */
+.container_fourth {
+  padding-bottom: 84px;
+  padding-top: 67px;
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 301, ../sadasdasd/assets/scss/style.scss */
+.container_fourth h3 {
+  color: #000000;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32.49px;
+  text-transform: uppercase;
+  letter-spacing: 0.14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 304, ../sadasdasd/assets/scss/style.scss */
+.container_fourth p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 32.49px;
+  letter-spacing: 0.07px;
+  margin-bottom: 47px;
+  margin-top: 58px;
+  text-align: center;
+}
+
+/* line 314, ../sadasdasd/assets/scss/style.scss */
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+/* line 319, ../sadasdasd/assets/scss/style.scss */
+.form_app {
+  width: 214px;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #dadada;
+  background-color: #ffffff;
+  padding: 16px 16px 16px 25px;
+}
+
+/* line 327, ../sadasdasd/assets/scss/style.scss */
+.form_app:first-child {
+  margin-right: 22px;
+}
+
+/* line 330, ../sadasdasd/assets/scss/style.scss */
+.adress_btn_messange .form_app {
+  width: 100%;
+  margin-right: 0px;
+  margin-bottom: 18px;
+}
+
+/* line 335, ../sadasdasd/assets/scss/style.scss */
+.name_surname {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* line 340, ../sadasdasd/assets/scss/style.scss */
+.adress_btn_messange {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 344, ../sadasdasd/assets/scss/style.scss */
+.btn_form {
+  border-radius: 10px;
+  background-color: #b7b7b7;
+  border: 0px;
+  padding: 13px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 32.49px;
+  text-transform: uppercase;
+  letter-spacing: 0.06px;
+}
+
+/* line 356, ../sadasdasd/assets/scss/style.scss */
+.text_form {
+  height: 153px;
+}
+
+/* line 359, ../sadasdasd/assets/scss/style.scss */
+.container_footer {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 366, ../sadasdasd/assets/scss/style.scss */
+.footer {
+  background-color: #fcff19;
+  padding: 17px 0;
+}
+
+/* line 370, ../sadasdasd/assets/scss/style.scss */
+.nav_link {
+  color: #010101;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 32.49px;
+  text-transform: uppercase;
+  letter-spacing: 0.07px;
+  padding: 0 15px;
+}
+
+/* line 379, ../sadasdasd/assets/scss/style.scss */
+.logo_footer {
+  margin-right: 120px;
+}
+
+/* line 382, ../sadasdasd/assets/scss/style.scss */
+.textarea {
+  text-align: left;
+  height: 150px;
+  border-radius: 10px;
+  border: 1px solid #dadada;
+  background-color: #ffffff;
+  overflow: auto;
+  margin-bottom: 22px;
+  padding: 24px;
+  font-size: 12px;
+  resize: none;
+}
+
+/*# sourceMappingURL=style.css.map */

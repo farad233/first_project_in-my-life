@@ -1,0 +1,21 @@
+@mixin tittle() {
+    display: inline-block;
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FF7A00;
+    &::before {
+        content: '';
+        width: 21px;
+        height: 21px;
+        background-image: url(../images/elipse.svg);
+        background-repeat: no-repeat;
+        background-size: 21px 21px;
+        position: absolute;
+        left: -48px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

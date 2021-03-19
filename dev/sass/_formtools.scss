@@ -1,0 +1,73 @@
+.form_radio {
+    margin-bottom: 5px;
+}
+.form_radio input[type=radio] {
+    display: none;
+}
+.form_radio label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 0;
+    line-height: 18px;
+    user-select: none;
+}
+.form_radio label:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background: url(../images/radio-button.svg)  no-repeat;
+}
+.form_radio input[type=radio]:checked + label:before {
+    background: url(../images/radio-button-cheaked.svg);
+    background-size: 24px 24px;
+    background-position: center;
+}
+.form__elem_margin {
+    display: flex;
+    
+    .form_radio:first-child {
+        margin-right: auto;
+    }
+    .form_checkbox:first-child {
+        margin-right: auto;
+    }
+}
+.form-label_padding {
+    padding-left: 24px;
+}
+.form_checkbox {
+    margin-bottom: 5px;
+}
+.form_checkbox input[type=checkbox] {
+    display: none;
+}
+.form_checkbox label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 0;
+    line-height: 18px;
+    user-select: none;
+}
+.form_checkbox label:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background: url(../images/cheak.png)  no-repeat;
+}
+.form_checkbox input[type=checkbox]:checked + label:before {
+    background: url(../images/cheak-cheaked.png);
+    background-size: 18px 18px;
+    background-position: center;
+}
